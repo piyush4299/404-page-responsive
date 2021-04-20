@@ -1,0 +1,52 @@
+*{
+    margin:0;
+}
+
+.brand{
+    padding: 1rem;
+    color: #333333;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 10% 5%;
+}
+
+.container ._404image{
+    margin: auto;
+    max-width: 340px;
+}
+
+.container .contentContainer{
+    padding: 1rem;
+
+}
+.contentContainer .heading{
+    font-weight: 700;
+    word-spacing: 0.4rem;
+    letter-spacing: -0.035em;
+}
+
+.contentContainer .content{
+    font-weight: 400;
+    padding: 1.5rem 0rem;
+    line-height: 1.5;
+    color: #4F4F4F;
+}
+
+.contentContainer .backButton{
+    padding: 0.8rem;
+    color: white;
+    background-color: #333333;
+    border: none;
+
+}
+
+@media screen and (max-width:480px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+    }
+}
